@@ -1,7 +1,7 @@
 export const fetchGeoLocation = () => {
   return (
     fetch(
-      'http://ipinfo.io?token=2b93c06e42ddb3',
+      'https://ipinfo.io?token=2b93c06e42ddb3',
       {
         headers: {
           'Accept': 'application/json',

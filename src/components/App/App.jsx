@@ -112,7 +112,6 @@ class AppComponent extends Component {
                       }
                     />
                     <Route
-                      exact
                       path="/"
                       render={ props => (
                         <CurrencyConvertor
