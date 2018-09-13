@@ -8,6 +8,8 @@ import { ConnectedRouter as Router } from 'react-router-redux';
 render(
   <Provider store={ store }>
     <Router history={ history }>
+      <App />
+    </Router>
   </Provider>
   ,
   document.querySelector('#root')
