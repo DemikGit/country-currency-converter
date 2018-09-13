@@ -61,6 +61,7 @@ class CurrencyListComponent extends React.Component {
       data.map(rate => {
         return { key: rate.key, value: (new BigNumber(rate.value).div(base.value)).toFixed(7) }
       })
+
     return newData;
   }
 
@@ -72,6 +73,9 @@ class CurrencyListComponent extends React.Component {
     data.sort((a,b) => {
       if(Object.keys(favorites).includes(b.key)) {
         return 1;
+      }
+      if(Object.keys(favorites).includes(a.key)) {
+        return -1;
       }
       return 0;
     });
