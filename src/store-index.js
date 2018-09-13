@@ -4,8 +4,11 @@ import promiseMiddleware from 'redux-simple-promise';
 import thunk from 'redux-thunk';
 import { rootReducer } from './rootReducer';
 import { createBrowserHistory } from 'history';
+import persistState from 'redux-localstorage'
 
-const enhancers = [];
+const enhancers = [
+  persistState()
+];
 export const history = createBrowserHistory();
 
 const middleware = [
