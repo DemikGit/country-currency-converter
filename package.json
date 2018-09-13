@@ -8,17 +8,21 @@
     "bignumber.js": "^7.2.1",
     "history": "^4.7.2",
     "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0",
     "lodash.isequal": "^4.5.0",
     "react": "^16.4.2",
     "react-debounce-input": "^3.2.0",
     "react-dom": "^16.4.2",
+    "react-number-format": "^3.5.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
+    "redux-localstorage": "^0.4.1",
     "redux-simple-promise": "^2.0.2",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "throttle-debounce": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
